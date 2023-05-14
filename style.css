@@ -1,0 +1,87 @@
+*,p,h1,h2,h3,h4,h5{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+:root{
+    font-size: 62.5%;
+
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3,p{
+    font-size: 1.5rem;
+}
+
+/* /* <w///// ///////////////////*/
+
+.game-container{
+    width:100vw;
+    height:100vh;
+
+    background-color:#EA005E;
+    
+}
+.road{
+    top:0%;
+    left:37.5%;
+    width:30rem;
+    border-left:dashed 1rem white;
+    border-right:dashed 1rem white;
+ 
+}
+.car,.cars > div{
+    width:3rem;
+    height:3rem;
+   
+    background-color: red;
+    position: absolute;
+    bottom:5rem;
+
+}
+.cars > div{
+    background-color: blue;
+
+}
+.roadLines{
+   
+    height:100%;
+    margin:auto;
+    width:1.5rem;
+}
+.roadLines div{
+    width:1.5rem;
+    height:10rem;
+    position:absolute;
+    background-color: white;
+}
+
+.h2{
+   width:10rem;
+   background-color: #EA005E;
+   padding:1rem 2rem;
+   border-radius: 2rem;
+   margin:auto;
+   z-index:2;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+ 
+}
+.h2:hover{
+    background-color:darkmagenta;
+    color:white;
+}
+.hide{
+    display: none;
+}
+.h1,.h2{
+    color:rgb(54, 54, 137);
+    background-color: #E3008C;
+    box-shadow: 0 .5rem .5rem 0rem;
+}

@@ -38,7 +38,7 @@ const leftRandom = () => {
 
 
 let speed2 = 4;
-let speed = 10;
+let speed = 8;
 let sc = 0;
 let hc = 3;
 
@@ -47,7 +47,7 @@ const isCollide = (enemy) => {
     let enemyTop = parseInt(window.getComputedStyle(enemy).getPropertyValue("top"));
     let enemyLeft = parseInt(window.getComputedStyle(enemy).getPropertyValue("left"));
     let carLeft = parseInt(window.getComputedStyle(car).getPropertyValue("left"));
-    console.log(enemyTop, enemyLeft, carLeft);
+    
 
     return (enemyLeft === carLeft) && (enemyTop > 540) && (enemyTop < 560);
 
